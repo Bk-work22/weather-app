@@ -30,3 +30,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+ul.suggestions:has(li) {
+  opacity: 1;
+  backdrop-filter: blur(16px) saturate(180%);
+  cursor: pointer;
+  background-color: rgba(17, 24, 39, 0.75);
+}
+
+ul.suggestions {
+  opacity: 0;
+}

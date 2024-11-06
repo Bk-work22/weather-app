@@ -17,7 +17,7 @@ const Home = () => {
   useEffect(() => {
     const savedCity = localStorage.getItem("favoriteCity");
     if (savedCity) {
-      setCity(savedCity);
+      // setCity(savedCity);
       handleSubmit(savedCity);
       setIsFavorite(true);
     }
